@@ -1,6 +1,10 @@
+# Accounts
+
 1 Create mainnet wallet using airdrop, store seed phrase somewhere safe
 
 2 Create Github account: https://github.com/ 
+
+# Development Environment
 
 3 Fork repository https://github.com/near-examples/FT 
 
@@ -17,6 +21,8 @@
 9 Install rust nightly: rustup default nightly 
 
 10 Install rust target: rustup target add wasm32-unknown-unknown 
+
+# Build and deploy contract
 
 11 Test contract:
    cd ft && cargo test -- --nocapture --color=always && cd ..
@@ -45,6 +51,8 @@
    near call $ID new '{"owner_id": "'$ID'", "total_supply": "<TOTAL_TOKENS>", "metadata": { "spec": "ft-1.0.0", "name": "<YOUR_NAME>", "symbol": "<YOUR_SYMBOL>", "decimals": <DECIMALS> }}' --accountId $ID
 
 20 Look at transaction in explorer
+
+# Explore features
 
 21 View token metadata:
    near view $ID ft_metadata 
