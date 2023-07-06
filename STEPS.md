@@ -68,3 +68,11 @@
    near call $ID ft_transfer '{"receiver_id": "<COLLEAGUES_ACCOUNT>", "amount": "<AMOUNT_WITH_DECIMALS>"}' —accountId - $ID —amount 0.000000000000000000000001 
 
 26 Check FT amounts at https://wallet.near.org 
+
+# Explore FT and NFT standards
+
+27 Look up NEPs, look at Nomicon
+
+28 Find corresponding methods in our codebase
+
+29 Modify methods, redeploy
